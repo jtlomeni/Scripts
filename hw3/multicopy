@@ -1,0 +1,14 @@
+#!/bin/awk -f
+BEGIN{
+	print "Enter a directory name"
+	getline dirname<"-"
+	command = "mkdir " dirname
+	system(command)
+	##echo mkdir dirname
+}
+{
+	command2 = "cp " $0 " " dirname
+	system(command2)
+	##echo cp $0 dirname
+
+}

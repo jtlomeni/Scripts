@@ -1,0 +1,26 @@
+#!/usr/bin/perl -w
+open(INFILE, "master.csv");
+%names = ();
+while($line = <INFILE>){
+	@fields = split(/,/, $line);
+	$name = $fields[2];
+	$names{$name}++;
+}
+
+$count = 0;
+foreach $name (sort{$names{$b} <=> $names{$a}} keys %names){
+	if($count<=10){
+		print "$name $names{$name}\n";
+		$count++;
+	}
+}
+
+##$length = scalar keys %names;
+##$low = (scalar keys %names) - 10;
+##for($i=$length; $i>= $low; $i--){
+##	print "$name $sorted{$name}\n";
+##}
+
+
+
+

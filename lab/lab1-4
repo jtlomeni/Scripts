@@ -1,0 +1,10 @@
+#!/bin/awk -f
+BEGIN {
+	FS=","
+}
+$4 ~ /^qb/ {
+	qbs++
+}
+END {
+	print "QBs: " qbs
+}

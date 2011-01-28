@@ -1,0 +1,13 @@
+#!/bin/awk -f
+BEGIN{
+	count = 0
+	print "Enter a number"
+	getline n<"-"
+}
+{
+	mod = count%n
+	if(mod == 0){
+		print $0
+	}
+	count++
+}

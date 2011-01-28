@@ -1,0 +1,70 @@
+#!/usr/bin/perl -w
+
+
+#=====================================================
+# test number of command line arguments and store results
+$numArgs = $#ARGV + 1;
+if($numArgs > 2){
+	print "ERROR: invalid number of command line arguments";
+	exit;
+}elsif($numArgs==2){
+	$labelFile=$ARGV[0];
+	print $labelFile;
+	$extraFile=$ARGV[1];
+	%extraKeys = ();
+	open(EXTRAKEYS, $extraFile)  || die "Cant find file " . $extraKeys;
+	while($line = <EXTRAKEYS>){
+		chomp($line);
+		#####CODE HERE########
+	}
+}else{
+	$labelFile=$ARGV[0];
+}
+
+#========================================================
+# Load hash array from label file
+%labels = ();
+
+open(LABELFILE, $labelFile)  || die "Cant find file " . $labelFile;
+while($line = <LABELFILE>){
+	chomp($line);
+	($exprID, $result) = split ('\t', $line);
+	$labels{$exprID} = $result;
+	print $exprID;
+}
+
+#===========================================================
+#read and store gene and values for each value in label hash
+%genes = ();
+$numExpr = scalar keys %labels;
+foreach $exprID (sort (keys (%labels))){
+	open(EXPRFILE, $exprID) || die "Cant find file " . $exprID;
+	while($line = <EXPRFILE>){
+		chomp($line);
+		($geneID, $value) = split('\t',$line);
+		push(@{$genes{$geneID}},$value);
+		
+	} 
+}
+#===============================================================
+# print output in a table format
+open(OUTPUT, ">lomenick.out");
+print OUTPUT "ID\t";
+foreach $exprID (sort (keys (%labels))){
+	print OUTPUT $exprID . "\t";
+}
+print OUTPUT "\n";
+print OUTPUT "Label\t";
+foreach $exprID (sort (keys (%labels))){
+	print OUTPUT $labels{$exprID} . "\t";
+}
+print OUTPUT "\n";
+foreach $geneID (sort (keys (%genes))){
+	print OUTPUT $geneID . "\t";
+	$values = $genes->{$geneID};
+	for $i (0.. $#{ $genes{$geneID}}){
+		print OUTPUT  $genes{$geneID}[$i] . "\t";
+	}
+	print OUTPUT "\n";
+
+    }

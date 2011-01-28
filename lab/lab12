@@ -1,0 +1,11 @@
+#!/bin/awk -f
+BEGIN {
+	FS=" "
+}
+($7 ~ /~hcc/) {hcc++}
+($0 ~ /Googlebot/) {googlebot++} 
+END {
+	print "hcc accesses: " hcc
+	print "googlebot : " googlebot
+}
+

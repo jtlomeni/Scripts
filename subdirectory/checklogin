@@ -1,0 +1,21 @@
+#!/bin/bash
+#provides info about login information for a set of users.
+
+echo 
+processusers()
+{
+	while read line
+		do
+			finger -l "${line}"
+			echo
+		done
+} < $file
+
+if [ "$#" -ne "1" ]; then
+	echo "Usage: showusers <filename>"
+	exit 0
+fi
+
+file=$1
+processusers
+

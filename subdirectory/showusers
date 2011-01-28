@@ -1,0 +1,6 @@
+#!/bin/bash
+# showusers generates an aplhabetical list of login IDs
+
+sort -n -t ':' ../../../etc/passwd | cut -d ':' -f 1		
+
+	

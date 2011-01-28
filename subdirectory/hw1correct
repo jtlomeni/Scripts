@@ -1,0 +1,91 @@
+Script started on Thu 09 Sep 2010 02:39:20 PM CDT
+[jtlomeni@turing scripting]$ ./mailmessage users.txt hw.txt "Homework Assignment""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpeople.txt homework.txt "Homework Assignment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cusers.txt homework.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpeople.txt homework.txt "Homework Assignment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cusers.txt hw.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mailmessage users.txt hw.txt "Homework Assignment""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mailmessage users.txt hw.txt "Homework Assignment""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpeople.txt homework.txt "Homework Assignment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cusers.txt homework.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmailmessage users.txt homework.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./showusershugs hw1.hsnano hw1.hs hugs hw1.hs[K./showusers
+adm
+anocentino
+apache
+avahi-autoipd
+avahi
+bin
+daemon
+dbus
+distcache
+ftp
+games
+gdm
+gopher
+haldaemon
+halt
+lp
+mailnull
+mail
+mysql
+news
+nfsnobody
+nobody
+nscd
+ntp
+operator
+oprofile
+pcap
+postfix
+postgres
+root
+rpcuser
+rpc
+rpm
+shutdown
+smmsp
+squid
+sshd
+sync
+uucp
+vcsa
+webalizer
+wspolsto
+xfs
+[jtlomeni@turing scripting]$ ./showusersmailmessage users.txt hw.txt "Homework Assignment""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpeople.txt homework.txt "Homework Assignment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cusers.txt homework.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmailmessage users.txt homework.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mailmessage users.txt homework.txt "Homework Assignment"
+
+
+
+
+[jtlomeni@turing scripting]$ ./mailmessage users.txt homework.txt "Homework Assiggnment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cshowusers[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmailmessage users.txt homework.txt "Homework Assiggnment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mailmessage users.txt homework.txt "Homework Assiggnment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cshowusers[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmailmessage users.txt hw.txt "Homework Assignment""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpeople.txt homework.txt "Homework Assignment"
+people.txt  does not exist
+[jtlomeni@turing scripting]$ ./mailmessage people.txt homework.txt "Homework Assiignment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cusers.txt homework.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cshowusers[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmailmessage users.txt hw.txt "Homework Assignment""
+
+./mailmessage: line 31: hw.txt: No such file or directory
+
+./mailmessage: line 31: hw.txt: No such file or directory
+
+./mailmessage: line 31: hw.txt: No such file or directory
+
+./mailmessage: line 31: hw.txt: No such file or directory
+[jtlomeni@turing scripting]$ ./mailmessage users.txt hw.txt "Homework Assignment""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpeople.txt homework.txt "Homework Assignment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cusers.txt homework.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cshowusers[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmailmessage users.txt hw.txt "Homework Assignment""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpeople.txt homework.txt "Homework Assignment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cusers.txt homework.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmailmessage users.txt homework.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./showusershugs hw1.hsnano hw1.hs hugs hw1.hs[Knano hw1.hs hugs hw1.hs[Knano hw1.hs hugs hw1.hs[Knano hw1.hs hugs hw1.hs[Knano hw1.hs hugs hw1.hs[Knano hw1.hs hugs hw1.hs[K./showusersls[Kmailmessage users.txt homework.txt "Homework Assignmment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mailmessage users.txt homework.txt "Homework Assignment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmailmessage users.txt homework.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmailmessage users.txt homework.txt "Homework Assignmment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mailmessage users.txt homework.txt "Homework Assignment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpeople.txt homework.txt "Homework Assignment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cusers.txt hw.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cshowusers[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmailmessage users.txt homework.txt "Homework Assiggnment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpeople.txt homework.txt "Homework Assignment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cusers.txt hw.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mailmessage users.txt hw.txt "Homework Assignment""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpeople.txt homework.txt "Homework Assignment"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cusers.txt homework.txt "Homework Assignment"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cshowusers[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Kmail -s "how[Kmwork script" jtlomeni@gmail.com < hw1corrrect 
+You have new mail in /var/spool/mail/jtlomeni
+[jtlomeni@turing scripting]$ mail
+Mail version 8.1 6/6/93.  Type ? for help.
+"/var/spool/mail/jtlomeni": 8 messages 8 new
+>N  1 MAILER-DAEMON@turing  Tue Sep  7 17:39  72/2420  "Undelivered Mail Retu"
+ N  2 MAILER-DAEMON@turing  Tue Sep  7 17:53  72/2420  "Undelivered Mail Retu"
+ N  3 jtlomeni@turing.cs.o  Thu Sep  9 14:37  18/637   "Homework Assignment"
+ N  4 jtlomeni@turing.cs.o  Thu Sep  9 14:37  18/637   "Homework Assignment"
+ N  5 jtlomeni@turing.cs.o  Thu Sep  9 14:37  18/637   "Homework Assignment"
+ N  6 jtlomeni@turing.cs.o  Thu Sep  9 14:39  18/637   "Homework Assignment"
+ N  7 jtlomeni@turing.cs.o  Thu Sep  9 14:39  18/637   "Homework Assignment"
+ N  8 jtlomeni@turing.cs.o  Thu Sep  9 14:39  18/637   "Homework Assignment"
+& q
+Held 8 messages in /var/spool/mail/jtlomeni
+[jtlomeni@turing scripting]$ mail[K[K[K[Kmail -s "homwork script" jtlomeni@gmail.com < hw1corrrect [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C < hw1correct [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C < hw1correct [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C < hw1correct [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C < hw1correct [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C < hw1correct [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C < hw1correct  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C < hw1correct [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C < hw1correct [K < hw1correct [Ko < hw1correct l < hw1correct e < hw1correct  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm < hw1correct  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C

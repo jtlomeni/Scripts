@@ -1,0 +1,33 @@
+#!/usr/bin/perl -w
+
+
+#=====================================================
+# test number of command line arguments and store results
+$numArgs = $#ARGV + 1;
+if($numArgs > 2){
+	print "ERROR: invalid number of command line arguments";
+	exit;
+}elseif($numArgs==2){
+	$labelFile=$ARGV[0];
+	$extraFile=$ARGV[1];
+}else{
+	$labelFile=$ARGV[0];
+}
+
+#========================================================
+# Load hash array from label file
+%labels = ();
+
+open(LABELFILE, $labelFile)  || die "Cant find file $labelfile";
+while($line = <LABELFILE>){
+	chomp($line);
+	($exprID, $result) = split ('\t', $line)
+	$labels{$exprID} = $result;
+}
+
+#===========================================================
+#read and store gene and values for each value in label hash
+
+foreach $key(%labels){
+
+}

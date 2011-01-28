@@ -1,0 +1,13 @@
+#!/bin/awk -f
+BEGIN {
+	FS=","
+}
+{
+	born = $5
+	if(born==1967){
+		count++
+	}
+}
+END{
+	print count
+}

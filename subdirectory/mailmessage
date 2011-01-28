@@ -1,0 +1,32 @@
+#!/bin/bash
+
+#John Lomenick
+#CSCI 581: Scripting Languages
+# Dr. Wilkins
+# 7 September 2010
+
+if [ -e $1 ]
+then
+	userfile="$1"
+else
+	echo $1 " does not exist"
+	exit 0
+fi
+
+if [ -e $1 ]
+then
+	messagefile="$2"
+else
+	echo $2 " does not exist"
+	exit 0
+fi
+
+subject="$3"
+
+while read linevar
+	do
+		echo 
+		tail="@turing.cs.olemiss.edu"
+		user=$linevar$tail
+		mail -s "$subject" "$user" < $messagefile   
+	done < $userfile 

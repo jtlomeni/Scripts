@@ -1,0 +1,11 @@
+#!/bin/awk -f
+BEGIN {
+	FS = "."
+}
+if($1==130 && $2==74 && $3==96){
+	count++
+
+}
+END {
+	print "Count: " count
+}
